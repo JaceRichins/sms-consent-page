@@ -31,7 +31,7 @@ goals, then writes tonight's check-in event with fresh, targeted questions and
 group email. Questions adapt daily to whatever the data says is weakest.
 
 Every run also grows the coach's living memory: a new dated doc in the
-[Accountability Coach Journal](https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz)
+[Accountability Coach Journal](https://drive.google.com/drive/folders/1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF)
 Drive folder — the full index per member and per goal (status, streaks,
 insights, queued prompts and why) plus that day's history. The newest doc is
 the current brain; the folder is the complete audit trail; one link shares it
@@ -49,5 +49,5 @@ with the whole group.
 | `templates/` | Goals-sheet CSV template, weekly report format |
 
 The member roster and goals live in the
-[Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit)
+[Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit)
 sheet — the humans own it; the coach only reads.

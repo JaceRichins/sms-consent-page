@@ -2,18 +2,16 @@
 # The member roster and goals live in the Google Sheet, NOT here.
 # (This repo is published to a public GitHub Pages site, so no personal data belongs in it.)
 
-timezone: America/Denver   # used for all event times; change if the group is elsewhere.
-                           # Note: the Google Calendar itself is set to UTC — worth fixing
-                           # in Google Calendar settings, but the coach works either way.
+timezone: America/Denver   # matches the owner's Google Calendar; change if the group moves
 
-owner_gmail: richinscontracting@gmail.com   # the connected account; email check-ins go here
+owner_gmail: jace.richins1999@gmail.com   # the connected account; email check-ins go here
 
-goals_sheet_id: 11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg
-# https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit
+goals_sheet_id: 1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA
+# https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit
 
 journal:                     # the coach's continuously growing memory (Drive folder of dated docs)
-  folder_id: 1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz
-  # https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz
+  folder_id: 1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF
+  # https://drive.google.com/drive/folders/1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF
   doc_title_prefix: "Coach Journal"
 
 checkin:

@@ -2,34 +2,33 @@
 
 ## Where everything lives (read this first)
 
-Everything the coach builds lives in the Google account connected to Claude:
-**richinscontracting@gmail.com**. If you look at Drive while signed in as a
-different account (e.g. a personal Gmail), you'll see nothing — it isn't lost,
-it's just in the other account and not shared yet. Claude can create files but
-cannot change sharing, so sharing is the one thing only you can do:
+Everything lives in the Google account connected to Claude:
+**jace.richins1999@gmail.com** (the owner's personal account). Claude can
+create files but cannot change sharing, so sharing is the one thing only the
+owner can do — open each item in Drive → **Share** → add each member:
 
-1. Sign into Google as **richinscontracting@gmail.com** → drive.google.com →
-   everything is under Recent.
-2. Open each item → **Share** → add people:
-   - *START HERE guide* → all members + yourself, **Viewer**
-   - *Goals & Group sheet* → all members + yourself, **Editor**
-   - *Coach Journal folder* → all members + yourself, **Viewer**
-3. After that, everything appears under **"Shared with me"** in each person's
-   own Google account — including your personal one.
+- *START HERE guide* → members as **Viewer**
+- *Goals & Group sheet* → members as **Editor** (they type their own goals)
+- *Coach Journal folder* → members as **Viewer**
 
-Calendar needs no sharing: the coach invites each member to the check-in
-events directly, so they land on everyone's own calendar.
+Members then find everything under **"Shared with me"** in their own Google
+accounts. Calendar needs no sharing: the coach invites each member to the
+check-in events directly, so they land on everyone's own calendar.
+
+(History: the system briefly lived in richinscontracting@gmail.com on day 0
+and was migrated here before any check-ins happened. Leftover copies in that
+account can be deleted.)
 
 ## Already live (done by Claude on 2026-07-29)
 
 | Piece | Status |
 |---|---|
-| Goals & group sheet | ✅ Created: [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit) (owned by richinscontracting@gmail.com) |
-| Coach Journal — living memory | ✅ [Drive folder](https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz) + Day-0 doc. Every run adds a dated doc: full per-member/per-goal index (status, streaks, insights, queued prompts) + that day's history. Newest doc = current brain. Share the folder with the group for transparency. |
-| Member guide | ✅ [START HERE — How Our Accountability Group Works](https://docs.google.com/document/d/1rSV-uNgEbYsy1mQ6e7l-X-4bke-sV0ysowWtw1CikOY/edit) — the one link to send new members: what it is, the nightly 20 seconds, how to write goals, ground rules, FAQ |
+| Goals & group sheet | ✅ Created: [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit) (owned by jace.richins1999@gmail.com) |
+| Coach Journal — living memory | ✅ [Drive folder](https://drive.google.com/drive/folders/1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF) + Day-0 doc. Every run adds a dated doc: full per-member/per-goal index (status, streaks, insights, queued prompts) + that day's history. Newest doc = current brain. Share the folder with the group for transparency. |
+| Member guide | ✅ [START HERE — How Our Accountability Group Works](https://docs.google.com/document/d/1vVKYl4KlddW4mAJrQ6Qd0wzh6jwvE6NxnpS2C2bLbkY/edit) — the one link to send new members: what it is, the nightly 20 seconds, how to write goals, ground rules, FAQ |
 | Daily coach schedule | ✅ Claude routine fires daily at 11:00 UTC (~5am Mountain), reads sheet + calendar + Gmail, writes the evening check-in event |
-| Day 1 check-in event | ✅ Tonight 8:30pm on the calendar, invite sent to jace.richins1999@gmail.com |
-| Email check-in channel | ✅ Works now: email richinscontracting@gmail.com, subject "Check-in" |
+| Day 1 check-in event | ✅ Thursday Jul 30, 8:30pm on the owner's calendar with a popup reminder |
+| Email check-in channel | ✅ Works now: email jace.richins1999@gmail.com, subject "Check-in" |
 | Pages privacy | ✅ Workflow now publishes only `index.html`, not this folder |
 
 ## Your 15 minutes of setup
@@ -65,8 +64,7 @@ events directly, so they land on everyone's own calendar.
 ## Changing things
 
 - **Times, timezone, questions cadence** → edit `coach/config.yaml` (timezone is
-  assumed America/Denver — fix if wrong, and consider setting your Google Calendar
-  timezone, which is currently UTC).
+  America/Denver, confirmed against the owner's Google Calendar).
 - **Coaching style / rules** → edit `COACH.md`; the coach re-reads it every run.
 - **Pause / stop** → tell Claude "pause the accountability coach routine"
   (or manage Routines in the Claude Code web UI). Deleting the routine stops
