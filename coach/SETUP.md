@@ -1,11 +1,32 @@
 # Setup — what's live and what's left
 
+## Where everything lives (read this first)
+
+Everything the coach builds lives in the Google account connected to Claude:
+**richinscontracting@gmail.com**. If you look at Drive while signed in as a
+different account (e.g. a personal Gmail), you'll see nothing — it isn't lost,
+it's just in the other account and not shared yet. Claude can create files but
+cannot change sharing, so sharing is the one thing only you can do:
+
+1. Sign into Google as **richinscontracting@gmail.com** → drive.google.com →
+   everything is under Recent.
+2. Open each item → **Share** → add people:
+   - *START HERE guide* → all members + yourself, **Viewer**
+   - *Goals & Group sheet* → all members + yourself, **Editor**
+   - *Coach Journal folder* → all members + yourself, **Viewer**
+3. After that, everything appears under **"Shared with me"** in each person's
+   own Google account — including your personal one.
+
+Calendar needs no sharing: the coach invites each member to the check-in
+events directly, so they land on everyone's own calendar.
+
 ## Already live (done by Claude on 2026-07-29)
 
 | Piece | Status |
 |---|---|
 | Goals & group sheet | ✅ Created: [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit) (owned by richinscontracting@gmail.com) |
 | Coach Journal — living memory | ✅ [Drive folder](https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz) + Day-0 doc. Every run adds a dated doc: full per-member/per-goal index (status, streaks, insights, queued prompts) + that day's history. Newest doc = current brain. Share the folder with the group for transparency. |
+| Member guide | ✅ [START HERE — How Our Accountability Group Works](https://docs.google.com/document/d/1rSV-uNgEbYsy1mQ6e7l-X-4bke-sV0ysowWtw1CikOY/edit) — the one link to send new members: what it is, the nightly 20 seconds, how to write goals, ground rules, FAQ |
 | Daily coach schedule | ✅ Claude routine fires daily at 11:00 UTC (~5am Mountain), reads sheet + calendar + Gmail, writes the evening check-in event |
 | Day 1 check-in event | ✅ Tonight 8:30pm on the calendar, invite sent to jace.richins1999@gmail.com |
 | Email check-in channel | ✅ Works now: email richinscontracting@gmail.com, subject "Check-in" |
