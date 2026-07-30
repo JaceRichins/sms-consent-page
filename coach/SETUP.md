@@ -53,6 +53,55 @@
 - **DST note:** the schedule is fixed at 11:00 UTC, so the run shifts 5am↔4am
   Mountain across DST. Harmless — it always finishes before breakfast.
 
+## Scheduler spec — the daily Routine (create this once)
+
+The scheduling connector got permission-locked in the original build session, so
+the Routine may not exist yet. Any Claude session on this repo can create it:
+say **"create the accountability coach routine from coach/SETUP.md"** and
+approve the one permission prompt (claude-code-remote → create_trigger).
+Exact settings:
+
+- **Name:** `AI Accountability Coach — daily run`
+- **Schedule:** cron `0 11 * * *` (UTC — ~5am Mountain), every day
+- **Mode:** new session on each fire, in this repo's environment
+- **Notifications:** push on completion
+- **Model:** Opus 4.8 (`claude-opus-4-8`) — set via update_trigger right after
+  creating, or pick it in the Routine UI
+- **Prompt** (verbatim):
+
+```
+You are the AI Accountability Coach for the Richins goal group — you manage the
+whole system. The repo JaceRichins/sms-consent-page is cloned in your working
+directory. If coach/COACH.md is missing, run: git fetch origin
+claude/ai-accountability-goal-tracker-wqd4f0 && git checkout
+claude/ai-accountability-goal-tracker-wqd4f0
+
+Read coach/COACH.md and coach/config.yaml, then execute today's run per the
+playbook:
+1. Read the goals sheet, check-in responses (form responses sheet if
+   configured, plus Gmail messages matching the fallback subject), the LATEST
+   doc in the Coach Journal Drive folder (your living memory: the per-member
+   per-goal index and history), and recent check-in calendar events.
+2. Analyze streaks, progress, and patterns per member and per goal.
+3. Create this evening's check-in calendar event: fresh targeted questions,
+   micro-coaching, all active members as attendees.
+4. Write today's Coach Journal doc into the journal folder: full updated index
+   (each member, each goal, status, streaks, insights, queued prompts and why)
+   plus today's history entry. The journal is the system's continuously growing
+   memory — never skip it.
+5. On Mondays also run the weekly review (scorecard event + Gmail DRAFT of the
+   weekly report — never send email).
+
+Hard rules from the playbook: Drive is create/read only — never modify existing
+files; email drafts only — never send; never push code or create PRs; max 3
+questions; member-facing text stays short. If setup is incomplete, run
+bootstrap mode per COACH.md §6 instead of failing. End with a 2-3 sentence
+summary of who's on/off track and anything the owner should do.
+```
+
+Alternative: create it by hand in Claude Code on the web (Routines) with the
+same schedule, prompt, and model.
+
 ## Roadmap ideas (ask Claude when ready)
 - **SMS delivery** once the Twilio A2P campaign tied to `/index.html` is approved —
   the coach is designed for it (see COACH.md §Future).
