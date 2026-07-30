@@ -5,6 +5,7 @@
 | Piece | Status |
 |---|---|
 | Goals & group sheet | ✅ Created: [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit) (owned by richinscontracting@gmail.com) |
+| Coach Journal — living memory | ✅ [Drive folder](https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz) + Day-0 doc. Every run adds a dated doc: full per-member/per-goal index (status, streaks, insights, queued prompts) + that day's history. Newest doc = current brain. Share the folder with the group for transparency. |
 | Daily coach schedule | ✅ Claude routine fires daily at 11:00 UTC (~5am Mountain), reads sheet + calendar + Gmail, writes the evening check-in event |
 | Day 1 check-in event | ✅ Tonight 8:30pm on the calendar, invite sent to jace.richins1999@gmail.com |
 | Email check-in channel | ✅ Works now: email richinscontracting@gmail.com, subject "Check-in" |

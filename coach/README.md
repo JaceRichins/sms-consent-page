@@ -30,6 +30,13 @@ goals, then writes tonight's check-in event with fresh, targeted questions and
 2–3 sentences of coaching. Mondays add a weekly scorecard event and a draft
 group email. Questions adapt daily to whatever the data says is weakest.
 
+Every run also grows the coach's living memory: a new dated doc in the
+[Accountability Coach Journal](https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz)
+Drive folder — the full index per member and per goal (status, streaks,
+insights, queued prompts and why) plus that day's history. The newest doc is
+the current brain; the folder is the complete audit trail; one link shares it
+with the whole group.
+
 ## Files
 
 | File | Purpose |

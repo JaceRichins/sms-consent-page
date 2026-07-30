@@ -11,6 +11,11 @@ owner_gmail: richinscontracting@gmail.com   # the connected account; email check
 goals_sheet_id: 11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg
 # https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit
 
+journal:                     # the coach's continuously growing memory (Drive folder of dated docs)
+  folder_id: 1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz
+  # https://drive.google.com/drive/folders/1azBkWfCCWZYyXt8w1WnWWMfrSmsYH0Cz
+  doc_title_prefix: "Coach Journal"
+
 checkin:
   event_title_prefix: "✅ 2-min check-in"
   event_time: "20:30"        # local evening reflection time

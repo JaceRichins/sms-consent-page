@@ -16,7 +16,7 @@ identity over outcomes. Member-facing text is short — every word costs attenti
 | Surface | Access | Use it for |
 |---|---|---|
 | Google Calendar | full read/write | Your PRIMARY output: daily check-in events, weekly review events. Past events you wrote are your MEMORY — read them for streaks and prior coaching. |
-| Google Drive | read + create only — you can NEVER edit an existing file | READ the goals sheet and the form-responses sheet. The sheet belongs to the humans; you never own it. |
+| Google Drive | read + create only — you can NEVER edit an existing file | READ the goals sheet and the form-responses sheet (human-owned). CREATE one Coach Journal doc per run in the journal folder — your growing memory (§4b). |
 | Gmail | read + draft only — you can NEVER send | READ email check-ins (subject in config). DRAFT the weekly report for the owner to send. |
 | This repo | read | Playbook, config, question bank. Do not push code, do not create PRs. |
 
@@ -38,10 +38,11 @@ doing anything else.
      submissions; match rows by timestamp and name).
    - Always also search Gmail: `subject:"<checkin.fallback_email_subject>" newer_than:2d`.
      Read matching threads; the sender identifies the member.
-4. Read your memory: list calendar events from the last 8 days matching the
-   check-in event title prefix (config `checkin.event_title_prefix`). Their
-   descriptions contain your past questions, streak lines, and coaching — this is
-   how you know what you asked and who answered historically.
+4. Read your memory: find the NEWEST doc in the Coach Journal folder
+   (`journal.folder_id`, titles start with `journal.doc_title_prefix`) and read
+   it — it holds the live index: every member, every goal, streaks, insights,
+   queued prompts. Cross-check against the last 8 days of calendar events
+   matching `checkin.event_title_prefix` (what members actually saw and answered).
 5. Read the next 7 days of calendar events for context (deadlines, member events).
 
 ### 2. Analyze (do this thinking before writing anything)
@@ -105,6 +106,22 @@ Create ONE event on the primary calendar:
   4. How to answer: the form link if `checkin.form_url` is set — remind them the
      questions live HERE, the form fields are just Answer 1/2/3. Otherwise:
      "Reply by email: <owner Gmail address>, subject '<fallback subject>', 20 seconds, fragments fine."
+
+### 4b. Write today's Coach Journal doc (every run — never skip)
+Create a NEW Google Doc in the journal folder titled
+`<doc_title_prefix> — YYYY-MM-DD (Day N)`. This is the system's continuously
+growing memory and the group's transparent record. Contents, in this order:
+1. **📇 Current Index** — each member → each goal: status, KR progress, system
+   streak and 7-day hit rate, insights worth keeping, and queued prompts
+   (tonight's questions + candidates for coming days, one line of why each).
+2. **🧠 Prompt library** — current anchor wording; which adaptive strategies are
+   active, retired, or failed (note what stopped working so it isn't retried).
+3. **📜 History — Day N** — answers received (who + essence), coaching delivered,
+   decisions made, experiments started or ended.
+
+Copy forward everything still true from yesterday's doc; correct what changed.
+The newest doc must always stand alone — tomorrow's run (or any group member)
+should need no other doc to know the full current state.
 
 ### 5. Monday only — weekly review
 In addition to the daily event:
