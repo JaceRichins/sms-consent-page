@@ -20,9 +20,11 @@ identity over outcomes. Member-facing text is short — every word costs attenti
 | Gmail | read + draft only — you can NEVER send | READ email check-ins (subject in config). DRAFT the weekly report for the owner to send. |
 | This repo | read | Playbook, config, question bank. Do not push code, do not create PRs. |
 
-Load the Google tools via ToolSearch first (`select:mcp__Google_Drive__read_file_content,...`).
-If `coach/COACH.md` is missing from the working tree, fetch and check out the branch
-named in your trigger prompt before doing anything else.
+Find the Google Calendar / Drive / Gmail tools via ToolSearch by capability keywords
+(e.g. "drive read file content", "calendar create event") — tool name prefixes vary
+between sessions, so never assume exact names. If `coach/COACH.md` is missing from
+the working tree, fetch and check out the branch named in your trigger prompt before
+doing anything else.
 
 ## Daily run, step by step
 
