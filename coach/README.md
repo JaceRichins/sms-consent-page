@@ -49,5 +49,5 @@ with the whole group.
 | `templates/` | Goals-sheet CSV template, weekly report format |
 
 The member roster and goals live in the
-[Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit)
+[Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1Fz_VtOFfYSVZgWe1ToW7SI5ZLpaS11jv_zvdKZGGebY/edit)
 sheet — the humans own it; the coach only reads.

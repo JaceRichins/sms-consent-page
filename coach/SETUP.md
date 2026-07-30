@@ -23,9 +23,9 @@ account can be deleted.)
 
 | Piece | Status |
 |---|---|
-| Goals & group sheet | ✅ Created: [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit) (owned by jace.richins1999@gmail.com) |
+| Goals & group sheet | ✅ [Accountability – Goals & Group](https://docs.google.com/spreadsheets/d/1Fz_VtOFfYSVZgWe1ToW7SI5ZLpaS11jv_zvdKZGGebY/edit) — formatted: color-coded rows, dropdowns, live Dashboard tab, Guide tab. Optional true macros: paste `templates/sheet-macros.gs` into Extensions → Apps Script |
 | Coach Journal — living memory | ✅ [Drive folder](https://drive.google.com/drive/folders/1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF) + Day-0 doc. Every run adds a dated doc: full per-member/per-goal index (status, streaks, insights, queued prompts) + that day's history. Newest doc = current brain. Share the folder with the group for transparency. |
-| Member guide | ✅ [START HERE — How Our Accountability Group Works](https://docs.google.com/document/d/1vVKYl4KlddW4mAJrQ6Qd0wzh6jwvE6NxnpS2C2bLbkY/edit) — the one link to send new members: what it is, the nightly 20 seconds, how to write goals, ground rules, FAQ |
+| Member guide | ✅ [START HERE — How Our Accountability Group Works](https://docs.google.com/document/d/1jBKa_xD0FJ41-zai-23azDfVkO6h07fde0m_I2TW8go/edit) — the one link to send new members: what it is, the nightly 20 seconds, how to write goals, ground rules, FAQ |
 | Daily coach schedule | ✅ Claude routine fires daily at 11:00 UTC (~5am Mountain), reads sheet + calendar + Gmail, writes the evening check-in event |
 | Day 1 check-in event | ✅ Thursday Jul 30, 8:30pm on the owner's calendar with a popup reminder |
 | Email check-in channel | ✅ Works now: email jace.richins1999@gmail.com, subject "Check-in" |

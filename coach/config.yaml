@@ -6,8 +6,9 @@ timezone: America/Denver   # matches the owner's Google Calendar; change if the 
 
 owner_gmail: jace.richins1999@gmail.com   # the connected account; email check-ins go here
 
-goals_sheet_id: 1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA
-# https://docs.google.com/spreadsheets/d/1HSInYiocF_E5UFTEmdKYf0YuAqv9eurLVuxX2gC1_ZA/edit
+goals_sheet_id: 1Fz_VtOFfYSVZgWe1ToW7SI5ZLpaS11jv_zvdKZGGebY
+# https://docs.google.com/spreadsheets/d/1Fz_VtOFfYSVZgWe1ToW7SI5ZLpaS11jv_zvdKZGGebY/edit
+# Tabs: "Goals & Group" (the data — parse this one), "Dashboard" (formulas), "Guide" (for humans)
 
 journal:                     # the coach's continuously growing memory (Drive folder of dated docs)
   folder_id: 1NXZPY3FYb4iMdnykNVADmmNwf0WamwYF

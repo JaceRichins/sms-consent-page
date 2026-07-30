@@ -30,7 +30,9 @@ doing anything else.
 
 ### 1. Load state
 1. Read `coach/config.yaml`.
-2. Read the goals sheet (`goals_sheet_id`). Parse rows by `Type`: MEMBER, GOAL,
+2. Read the goals sheet (`goals_sheet_id`). It has three tabs and the export
+   shows them in order — parse ONLY the first table ("Goals & Group"); the
+   Dashboard and Guide tabs are for humans. Parse rows by `Type`: MEMBER, GOAL,
    KEY RESULT, SYSTEM, COMMITMENT. Ignore rows with Status `example`. Members with
    Status `active` are your roster; their `Title` column is their email.
 3. Read check-in responses since your last run:
