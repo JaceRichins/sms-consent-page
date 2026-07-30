@@ -1,0 +1,8 @@
+Type,Member,Title,Details,Framework,Target,Due / Cadence,Status,Notes
+MEMBER,Jace,jace.richins1999@gmail.com,Phone: (add for SMS later) | Timezone: America/Denver,,,,active,Group owner — add one MEMBER row per person
+MEMBER,(new member name),their-email@example.com,Phone: | Timezone:,,,,invited,Coach starts inviting them to check-ins once status = active
+GOAL,Jace,(EXAMPLE — replace me) Build a profitable environmental compliance company,The one objective for this 12-week sprint,OKR,,2026-10-21,example,Keep 1 objective per person per sprint
+KEY RESULT,Jace,(EXAMPLE) Reach $30k/month revenue,Belongs to the objective above,OKR,$30000/mo,2026-10-21,example,Measurable — coach asks about the number
+KEY RESULT,Jace,(EXAMPLE) Sign 25 recurring customers,Belongs to the objective above,OKR,25 customers,2026-10-21,example,
+SYSTEM,Jace,(EXAMPLE) 10 sales calls every weekday,The daily habit that drives the key results,Systems,10/day,weekdays,example,Coach tracks streaks on SYSTEM rows
+COMMITMENT,Jace,(EXAMPLE) Follow up with every open lead within 24h,This week's specific promise to the group,12 Week Year,,week of 2026-07-27,example,Refreshed every Monday in the weekly review

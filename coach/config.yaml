@@ -1,0 +1,29 @@
+# AI Accountability Coach — configuration
+# The member roster and goals live in the Google Sheet, NOT here.
+# (This repo is published to a public GitHub Pages site, so no personal data belongs in it.)
+
+timezone: America/Denver   # used for all event times; change if the group is elsewhere.
+                           # Note: the Google Calendar itself is set to UTC — worth fixing
+                           # in Google Calendar settings, but the coach works either way.
+
+owner_gmail: richinscontracting@gmail.com   # the connected account; email check-ins go here
+
+goals_sheet_id: 11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg
+# https://docs.google.com/spreadsheets/d/11p_HjVtgZZ7mXZQJynBw6_1sHIP4CG-IUeP1Z6-qCAg/edit
+
+checkin:
+  event_title_prefix: "✅ 2-min check-in"
+  event_time: "20:30"        # local evening reflection time
+  event_duration_min: 5
+  days: daily                # Sunday runs in light "reset" mode (see COACH.md)
+  form_url: ""               # paste the Google Form link once created (see SETUP.md);
+  responses_sheet_id: ""     # ...and the ID of its linked responses sheet
+  fallback_email_subject: "Check-in"   # members can always just email instead
+
+weekly_review:
+  day: monday
+  event_time: "20:00"
+  event_duration_min: 15
+
+sms:
+  enabled: false             # flips on when the Twilio A2P campaign (see /index.html) is approved
