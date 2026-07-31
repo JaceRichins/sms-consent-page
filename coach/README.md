@@ -15,14 +15,14 @@ owner's connected Google account.
   ┌─────────────────────┴──┐   ┌───┴──────────────────────────┐
   │ Goals & Group sheet    │   │ Google Calendar event         │
   │ (Drive, human-owned)   │   │ "✅ 2-min check-in" — recap,  │
-  │ Form responses sheet   │   │ streaks, TODAY'S QUESTIONS,   │
-  │ Email check-ins (Gmail)│   │ all members invited, 8:30pm   │
-  │ Past events (memory)   │   │ popup reminder                │
-  └────────────────────────┘   └───┬──────────────────────────┘
-                                   │ members answer in 10–20s
+  │ Yesterday's event      │   │ streaks, TODAY'S QUESTIONS +  │
+  │  (answers typed in it) │   │ ✍ ANSWERS block, guest-       │
+  │ Location pings (Gmail) │   │ editable, 8:30pm popup        │
+  │ Screen-time screenshots│   └───┬──────────────────────────┘
+  │ Journal (its memory)   │       │ members tap Edit and type
+  └────────────────────────┘       │ answers into the event (10–20s)
                                    ▼
-                     Google Form (stable fields) or email reply
-                             → lands where the coach reads tomorrow
+                      read back by tomorrow morning's run
 ```
 
 The loop: every morning the coach analyzes yesterday's answers + calendar +

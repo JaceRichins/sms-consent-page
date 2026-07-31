@@ -20,9 +20,14 @@ checkin:
   event_time: "20:30"        # local evening reflection time
   event_duration_min: 5
   days: daily                # Sunday runs in light "reset" mode (see COACH.md)
-  form_url: ""               # paste the Google Form link once created (see SETUP.md);
-  responses_sheet_id: ""     # ...and the ID of its linked responses sheet
-  fallback_email_subject: "Check-in"   # members can always just email instead
+  answer_channel: calendar_inline   # members type answers INTO the guest-editable event
+  fallback_email_subject: "Check-in"   # silent fallback only — never advertised
+
+sensors:                     # behavior data feeds (see COACH.md → Sensors & signals)
+  location_email_subject: "Location"  # phone automations email pings to owner_gmail
+  uploads_folder_id: 1l4QAriuEybmgFxKyRNSfQ-5vCcY51QG9   # weekly screen-time screenshots
+  # https://drive.google.com/drive/folders/1l4QAriuEybmgFxKyRNSfQ-5vCcY51QG9
+  screen_time_in_checkin: true        # nightly number is part of the anchor question
 
 weekly_review:
   day: monday
